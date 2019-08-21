@@ -3,6 +3,8 @@ body{
     margin:0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    display:flex;
+    flex-direction:column;
 }
 
                                                     /* Everthing included in the header */
@@ -100,3 +102,21 @@ h2{
     display:block;
 
 }
+
+footer{
+    background-color:#666666;
+    border-top: 8px solid #4aaaa5;
+    text-align:center;
+    padding:20px;
+    flex-shrink:0;
+}
+
+html, body{
+    height:100%;
+
+}
+
+.main{
+    flex:1 0 auto;
+}
+
