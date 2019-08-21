@@ -1,0 +1,19 @@
+.header{
+    background-color: #ffffff;
+    padding:20px;
+    float: left;
+    width:960px;
+    margin: 0;
+
+}
+
+h1{
+    background-color: #4aaaa5;
+    padding: 20px;
+    width:200px;
+}
+
+#headshot{
+    height:200px;
+    width: 200px;
+}
