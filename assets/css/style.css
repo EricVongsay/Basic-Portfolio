@@ -4,18 +4,19 @@ body{
 }
 .header{
     background-color: #ffffff;
-    position: static;
+    /* position: static; */
     width: 100%;
     top:0;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 2px solid #cccccc;
     padding:5px;
     margin-bottom: 30px;
 }
 
 .content{
-    width:960px;
+    width:920px;
     background-color:#ffffff;
     border: 1px solid #dddddd;
+    padding:20px;
     margin: 0 auto;
     
 }
