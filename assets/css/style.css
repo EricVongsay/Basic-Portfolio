@@ -1,8 +1,23 @@
+body{
+    background-image: url('background.png');
+    margin:0 auto;
+}
 .header{
     background-color: #ffffff;
-    position:static;
-    margin: 0;
+    position: fixed;
+    width: 100%;
+    top :0;
+    height: 100px;
+    border-bottom: 1px solid #dddddd;
 
+}
+
+.content{
+    width:960px;
+    background-color:#ffffff;
+    border: 1px solid #dddddd;
+    margin: 10px auto;
+    
 }
 
 h1{
@@ -12,7 +27,9 @@ h1{
 }
 
 .nav{
-    float:right;
+    position:absolute;
+    top:0;
+    right:0;
 }
 
 #headshot{
@@ -20,9 +37,9 @@ h1{
     width: 200px;
 }
 
-.clearfix::after{
+/* .clearfix::after{
     content:" ";
     clear:both;
     display:block;
 
-}
+} */
