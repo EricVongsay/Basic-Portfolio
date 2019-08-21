@@ -1,8 +1,6 @@
 .header{
     background-color: #ffffff;
-    padding:20px;
-    float: left;
-    width:960px;
+    position:static;
     margin: 0;
 
 }
@@ -13,7 +11,18 @@ h1{
     width:200px;
 }
 
+.nav{
+    float:right;
+}
+
 #headshot{
     height:200px;
     width: 200px;
+}
+
+.clearfix::after{
+    content:" ";
+    clear:both;
+    display:block;
+
 }
