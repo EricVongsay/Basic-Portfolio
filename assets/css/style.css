@@ -164,3 +164,22 @@ h3{
     color:#ffffff;
     font-size:24px;
 }
+
+/* contact form */
+input[type=text],input[type=email], textarea{
+    width:100%;
+
+}
+textarea{
+    height:200px;
+}
+
+input[type=submit]{
+    background-color:#4aaaa5;
+    padding:10px 30px;
+    margin:20px 0;
+    color:#ffffff;
+  }
+  #submit:hover{
+      background-color:purple;
+  }
