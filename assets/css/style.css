@@ -7,10 +7,13 @@ body{
     flex-direction:column;
 }
 
+h1, h2, h3{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
                                                     /* Everthing included in the header */
 .header{
     background-color: #ffffff;
-    font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 14px;
     position: fixed;
     width: 100%;
@@ -50,7 +53,7 @@ nav ul{
 
 nav li{
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 20px;
     padding-top:25px;
 }
 
@@ -182,4 +185,8 @@ input[type=submit]{
   }
   #submit:hover{
       background-color:purple;
+  }
+
+  .aboutme{
+      line-height:30px;
   }
